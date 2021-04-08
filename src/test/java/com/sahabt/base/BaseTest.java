@@ -44,6 +44,12 @@ public class BaseTest {
         navigate("https://www.testinium.com/");
     }
 
+
+    @Test
+    public void testCase2() {
+        navigate("https://www.loadium.com/");
+    }
+
     public void navigate(String url) {
         driver.get(url);
     }
