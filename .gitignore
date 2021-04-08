@@ -7,3 +7,4 @@
 *.ipr
 **/.idea/
 **/*.iml
+*directory
