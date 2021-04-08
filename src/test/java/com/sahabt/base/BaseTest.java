@@ -50,6 +50,11 @@ public class BaseTest {
         navigate("https://www.loadium.com/");
     }
 
+    @Test
+    public void testCase3() {
+        navigate("https://www.oobeya.io/");
+    }
+
     public void navigate(String url) {
         driver.get(url);
     }
