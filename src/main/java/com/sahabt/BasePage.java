@@ -17,8 +17,6 @@ import org.openqa.selenium.WebDriver.Navigation;
 import org.openqa.selenium.WebDriver.Options;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
-import org.openqa.selenium.security.Credentials;
-import org.openqa.selenium.security.UserAndPassword;
 import org.openqa.selenium.support.ui.ExpectedCondition;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
@@ -454,14 +452,6 @@ public abstract class BasePage {
 
   public String getTextAlert(String keys) {
     return switchToAlert().getText();
-  }
-
-  public void authenticateAlert(Credentials credentials) {
-    switchToAlert().authenticateUsing(credentials);
-  }
-
-  public void authenticateAlert(String username, String password) {
-    switchToAlert().authenticateUsing(new UserAndPassword(username, password));
   }
 
   public Options getOptions() {
