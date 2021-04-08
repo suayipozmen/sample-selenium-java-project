@@ -41,7 +41,7 @@ public class BaseTest {
 
     @Test
     public void testCase() {
-        navigate("http://www.testinium.com/");
+        navigate("https://www.testinium.com/");
     }
 
     public void navigate(String url) {
