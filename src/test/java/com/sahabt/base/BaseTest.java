@@ -63,4 +63,9 @@ public class BaseTest {
     public void tearDown() {
         driver.quit();
     }
+
+    @Test
+    public void testcase4() {
+        navigate("https://www.google.com");
+    }
 }
