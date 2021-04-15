@@ -55,6 +55,11 @@ public class BaseTest {
         navigate("https://dashboard.qa/");
     }
 
+    @Test
+    public void testCase4() {
+        navigate("https://www.google.com");
+    }
+
     public void navigate(String url) {
         driver.get(url);
     }
@@ -63,4 +68,6 @@ public class BaseTest {
     public void tearDown() {
         driver.quit();
     }
+
+
 }
