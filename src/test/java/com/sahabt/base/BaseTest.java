@@ -52,7 +52,7 @@ public class BaseTest {
 
     @Test
     public void testCase3() {
-        navigate("https://www.dashboard.qa/");
+        navigate("https://dashboard.qa/");
     }
 
     public void navigate(String url) {
