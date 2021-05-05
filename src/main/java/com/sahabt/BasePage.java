@@ -30,7 +30,7 @@ public abstract class BasePage {
 
   public WebDriver webDriver;
   public WebDriverWait webDriverWait;
-  private final int timeOut = 30;
+  private final int timeOut = 50;
   private final int sleepTime = 150;
 
   public BasePage(WebDriver webDriver) {
