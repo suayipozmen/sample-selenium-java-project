@@ -52,7 +52,7 @@ public class BaseTest {
 
     @Test
     public void testCase3() {
-        navigate("https://dashboard.qa/");
+        navigate("https://oobeya.io/");
     }
 
     @Test
