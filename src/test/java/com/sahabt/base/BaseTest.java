@@ -47,7 +47,7 @@ public class BaseTest {
 
     @Test
     public void testCase2() {
-        navigate("https://www.loadium.com/");
+        navigate("https://loadium.io/");
     }
 
     @Test
